@@ -1,14 +1,14 @@
 spring:
   rabbitmq:
-    host: "localhost"
+    host: localhost
     port: 5672
-    username: "admin"
-    password: "admin123!@#"
+    username: admin
+    password: admin123!@#
 
 rabbitmq:
   queue:
-    name: "hello.queue"
+    name: hello.queue
   exchange:
-    name: "hello.exchange"
+    name: hello.exchange
   routing:
-    key: "hello.key"
+    key: hello.key
